@@ -1,0 +1,118 @@
+@media (max-width:1110px) {
+    .fidelity-header {
+        display: flex !important;
+        align-items: start !important;
+        flex-direction: column !important;
+    }
+
+    .fidelity-steps {
+        margin-right: auto !important;
+        gap: 6px !important;
+
+        &__item {
+            width: 30% !important;
+            padding: 12px !important;
+        }
+
+        &__item-focus {
+            width: 40% !important;
+            border-radius: 8px !important;
+        }
+
+        &__arrow {
+            width: 100px !important;
+            background-size: contain !important;
+        }
+
+        &__equals {
+            width: 100px !important;
+            background-size: contain !important;
+        }
+    }
+
+    .fidelity-indicate {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+
+        &-area {
+            max-width: 100% !important;
+        }
+    }
+
+    .fidelity-collect {
+        width: 100% !important;
+        &__grup {
+            display: flex !important;
+            flex-direction: column !important;
+            overflow: scroll !important;
+        }
+    }
+
+    .fidelity-rewards {
+        &__grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .fidelity-header {
+      padding: 50px 20px !important;
+  
+      &__group-title {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+      }
+  
+      &__group-text {
+        font-size: 1rem !important;
+      }
+  
+      &__consult {
+        width: 100% !important;
+  
+        &-inputs {
+          &--text,
+          &--button {
+            font-size: 1rem !important;
+          }
+        }
+      }
+    }
+  
+    .fidelity-steps {
+      margin-top: -50px !important;
+      flex-direction: column !important;
+  
+      &__item,
+      &__item-focus {
+        width: 100% !important;
+        padding: 1rem !important;
+      }
+    }
+  
+    .fidelity-indicate,
+    .fidelity-howfunc,
+    .fidelity-useclub {
+      flex-direction: column !important;
+      width: 95% !important;
+  
+      &-area {
+        width: 100% !important;
+      }
+    }
+  
+    .fidelity-collect-section {
+      width: 90% !important;
+    }
+  
+    .fidelity-rewards__grid {
+      grid-template-columns: 1fr !important;
+    }
+  
+    .fidelity-useclub__image {
+      height: 400px !important;
+      margin-right: 0 !important;
+    }
+  }
