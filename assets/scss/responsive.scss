@@ -83,6 +83,18 @@
         }
     }
 
+    .fidelity-useclub{
+        display: flex !important;
+        justify-content:center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+
+        &__image{
+            margin: 0px !important;
+            height: 500px !important;
+        }
+    }
+
     .fidelity-gallery {
         &-img {
             height: 220px !important;
