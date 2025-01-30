@@ -330,7 +330,7 @@ $img-large: 1000px;
             }
 
             &__item-focus {
-                padding: 42px;
+                padding: 42px 6px;
                 background-color: $alert;
                 display: flex;
                 align-items: center;
