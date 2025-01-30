@@ -296,7 +296,7 @@ button {
   text-align: center;
 }
 .fidelity-content .fidelity-main .fidelity-steps__item-focus {
-  padding: 42px;
+  padding: 42px 6px;
   background-color: #5c5c5c;
   display: flex;
   align-items: center;
@@ -921,12 +921,8 @@ button {
     width: 40% !important;
     border-radius: 8px !important;
   }
-  .fidelity-steps__arrow {
-    width: 100px !important;
-    background-size: contain !important;
-  }
-  .fidelity-steps__equals {
-    width: 100px !important;
+  .fidelity-steps__arrow, .fidelity-steps__equals {
+    width: 60px !important;
     background-size: contain !important;
   }
   .fidelity-indicate {
