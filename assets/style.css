@@ -944,6 +944,13 @@ button {
     display: flex !important;
     flex-direction: column !important;
   }
+  .fidelity-howfunc {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column-reverse !important;
+    gap: 22px !important;
+    justify-content: flex-start !important;
+  }
   .fidelity-howfunc-section__cards {
     width: -webkit-fill-available !important;
     display: flex !important;
@@ -958,6 +965,9 @@ button {
   }
   .fidelity-howfunc-card {
     min-height: 70px !important;
+  }
+  .fidelity-howfunc-img {
+    height: 432px;
   }
   .fidelity-rewards__grid {
     grid-template-columns: repeat(2, 1fr) !important;
