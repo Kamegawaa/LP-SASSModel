@@ -108,6 +108,7 @@ button {
 }
 
 .fidelity-content {
+  width: -webkit-fill-available;
   font-family: "Poppins", sans-serif;
   background-color: #f0f0f0;
   margin-bottom: 0px !important;
@@ -151,7 +152,7 @@ button {
   padding: 32px;
   border-radius: 8px;
   gap: 3px;
-  width: 500px;
+  width: -webkit-fill-available;
   display: flex;
   flex-direction: column;
 }
@@ -163,11 +164,11 @@ button {
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
 .fidelity-content .fidelity-header__consult-inputs {
-  width: 100%;
+  width: -webkit-fill-available;
   display: flex;
 }
 .fidelity-content .fidelity-header__consult-inputs--text {
-  width: -webkit-fill-available;
+  width: 100%;
   padding: 10px 10px;
   border-radius: 4px 0px 0px 4px;
   border: 1px solid rgba(237, 237, 237, 0.8823529412);
@@ -176,8 +177,8 @@ button {
 .fidelity-content .fidelity-header__consult-inputs--button {
   transition: ease-in-out 0.2s;
   border-radius: 0px 4px 4px 0px;
-  padding: 10px 0px;
-  width: 40%;
+  padding: 10px 12px;
+  width: auto;
   border: none;
   background-color: #282828;
   color: #ffffff;
@@ -736,7 +737,7 @@ button {
   transition: ease-in-out 0.2s;
   border-radius: 0px 4px 4px 0px;
   padding: 10px 22px;
-  width: 20%;
+  width: min-content;
   border: none;
   background-color: #282828;
   color: #ffffff;
@@ -875,10 +876,19 @@ button {
   .fidelity-rewards__grid {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+  .fidelity-useclub {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .fidelity-useclub__image {
+    margin: 0px !important;
+    height: 500px !important;
+  }
   .fidelity-gallery-img {
     height: 220px !important;
   }
 }
 
 /*# sourceMappingURL=style.css.map */
-
