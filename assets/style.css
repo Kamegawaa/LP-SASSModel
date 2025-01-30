@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* Definição de fontes */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap");
-
 #fideity-button-user:hover {
   background-color: #4b4b4b;
   transform: scale(1.02);
@@ -16,118 +15,20 @@
 
 /* Variáveis para fontes */
 /* Variáveis para tamanho das fontes */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
 /* Variáveis para fontes */
 /* Variáveis para tamanho das fontes */
-.fidelity-content .fidelity-main .fidelity-emphasis,
-.fidelity-content .fidelity-main .fidelity-extract,
-.fidelity-content .fidelity-main .fidelity-rewards__end,
-.fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img,
-.fidelity-content .fidelity-main .fidelity-rewards,
-.fidelity-content .fidelity-main .fidelity-collect-section,
-.fidelity-content .fidelity-main .fidelity-collect,
-.fidelity-content .fidelity-main .fidelity-howfunc-section,
-.fidelity-content {
+.fidelity-content .fidelity-main .fidelity-emphasis, .fidelity-content .fidelity-main .fidelity-extract, .fidelity-content .fidelity-main .fidelity-rewards__end, .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img, .fidelity-content .fidelity-main .fidelity-rewards, .fidelity-content .fidelity-main .fidelity-collect-section, .fidelity-content .fidelity-main .fidelity-collect, .fidelity-content .fidelity-main .fidelity-howfunc-section, .fidelity-content {
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -137,12 +38,7 @@ section {
   align-items: flex-start;
 }
 
-.fidelity-content .fidelity-main .fidelity-gallery,
-.fidelity-content .fidelity-main .fidelity-useclub__info .fidelity-useclub__steps,
-.fidelity-content .fidelity-main .fidelity-useclub__info,
-.fidelity-content .fidelity-main .fidelity-indicate-area,
-.fidelity-content .fidelity-main .fidelity-indicate__info,
-.fidelity-content .fidelity-main .fidelity-indicate__grup {
+.fidelity-content .fidelity-main .fidelity-gallery, .fidelity-content .fidelity-main .fidelity-useclub__info .fidelity-useclub__steps, .fidelity-content .fidelity-main .fidelity-useclub__info, .fidelity-content .fidelity-main .fidelity-indicate-area, .fidelity-content .fidelity-main .fidelity-indicate__info, .fidelity-content .fidelity-main .fidelity-indicate__grup {
   width: -webkit-fill-available;
   display: flex;
   flex-direction: column;
@@ -152,13 +48,7 @@ section {
   align-items: flex-start;
 }
 
-.fidelity-content .fidelity-main .fidelity-gallery__carroussel,
-.fidelity-content .fidelity-main .fidelity-useclub,
-.fidelity-content .fidelity-main .fidelity-howfunc-section__cards,
-.fidelity-content .fidelity-main .fidelity-howfunc,
-.fidelity-content .fidelity-main .fidelity-indicate-imagem,
-.fidelity-content .fidelity-main .fidelity-indicate,
-.fidelity-content .fidelity-header {
+.fidelity-content .fidelity-main .fidelity-gallery__carroussel, .fidelity-content .fidelity-main .fidelity-useclub, .fidelity-content .fidelity-main .fidelity-howfunc-section__cards, .fidelity-content .fidelity-main .fidelity-howfunc, .fidelity-content .fidelity-main .fidelity-indicate-imagem, .fidelity-content .fidelity-main .fidelity-indicate, .fidelity-content .fidelity-header {
   width: -webkit-fill-available;
   display: flex;
   align-items: center;
@@ -168,8 +58,7 @@ section {
   justify-content: flex-start;
 }
 
-.fidelity-content .fidelity-main .fidelity-useclub__info .fidelity-useclub__step,
-.fidelity-content .fidelity-main .fidelity-indicate-imagens {
+.fidelity-content .fidelity-main .fidelity-useclub__info .fidelity-useclub__step, .fidelity-content .fidelity-main .fidelity-indicate-imagens {
   width: -webkit-fill-available;
   display: flex;
   align-items: center;
@@ -178,8 +67,7 @@ section {
   justify-content: flex-start;
 }
 
-.fidelity-content .fidelity-main .fidelity-collect__grup,
-.fidelity-content .fidelity-main .fidelity-steps {
+.fidelity-content .fidelity-main .fidelity-collect__grup, .fidelity-content .fidelity-main .fidelity-steps {
   width: -webkit-fill-available;
   display: flex;
   align-items: center;
@@ -215,7 +103,6 @@ section {
   scrollbar-width: thin;
   scrollbar-color: rgb(204, 204, 204) rgb(241, 241, 241);
 }
-
 .fidelity-content .fidelity-header {
   border-radius: 0px;
   padding: 150px 90px;
@@ -230,12 +117,10 @@ section {
   scrollbar-width: thin;
   scrollbar-color: rgb(0, 0, 0) rgb(0, 0, 0);
 }
-
 .fidelity-content .fidelity-header__group {
   width: 100%;
   margin-right: auto;
 }
-
 .fidelity-content .fidelity-header__group-title {
   color: #ffffff;
   font-size: clamp(2rem, 4vw, 3rem);
@@ -245,13 +130,11 @@ section {
   font-weight: 600;
   line-height: 50px;
 }
-
 .fidelity-content .fidelity-header__group-text {
   font-size: clamp(1rem, 2vw, 1.25rem);
   color: #ffffff;
   line-height: 22px;
 }
-
 .fidelity-content .fidelity-header__consult {
   background-color: #ffffff;
   padding: 32px;
@@ -261,21 +144,17 @@ section {
   display: flex;
   flex-direction: column;
 }
-
 .fidelity-content .fidelity-header__consult-title {
   font-size: clamp(1rem, 2vw, 1.25rem);
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-header__consult-text {
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
-
 .fidelity-content .fidelity-header__consult-inputs {
   width: 100%;
   display: flex;
 }
-
 .fidelity-content .fidelity-header__consult-inputs--text {
   width: -webkit-fill-available;
   padding: 10px 10px;
@@ -283,7 +162,6 @@ section {
   border: 1px solid rgba(237, 237, 237, 0.8823529412);
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-header__consult-inputs--button {
   transition: ease-in-out 0.2s;
   border-radius: 0px 4px 4px 0px;
@@ -294,13 +172,11 @@ section {
   color: #ffffff;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main {
   width: 100%;
   scrollbar-width: thin;
   scrollbar-color: rgb(204, 204, 204) rgb(241, 241, 241);
 }
-
 .fidelity-content .fidelity-main .fidelity-steps {
   width: 90%;
   background-color: #ffffff;
@@ -309,7 +185,6 @@ section {
   border-radius: 12px;
   margin: -130px auto 32px auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__item {
   padding: 32px 22px;
   display: flex;
@@ -318,7 +193,6 @@ section {
   width: 30%;
   text-align: center;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__item-focus {
   padding: 42px;
   background-color: #5c5c5c;
@@ -330,7 +204,6 @@ section {
   color: #ffffff;
   text-align: center;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__img-1 {
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/float-1.svg);
   background-position: center;
@@ -339,7 +212,6 @@ section {
   width: 60px;
   height: 60px;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__img-2 {
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/float-3.svg);
   background-position: center;
@@ -348,7 +220,6 @@ section {
   width: 60px;
   height: 60px;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__img-3 {
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/float-5.svg);
   background-position: center;
@@ -357,12 +228,10 @@ section {
   width: 60px;
   height: 60px;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__text {
   font-size: clamp(1rem, 1.5vw, 1rem);
   margin-top: 22px;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__arrow {
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/float-2.svg);
   background-position: center;
@@ -371,7 +240,6 @@ section {
   width: 60px;
   height: 60px;
 }
-
 .fidelity-content .fidelity-main .fidelity-steps__equals {
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/float-4.svg);
   background-position: center;
@@ -380,49 +248,41 @@ section {
   width: 60px;
   height: 60px;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate {
   width: 85%;
   margin: auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate__title {
   width: 100%;
   font-size: clamp(1.25rem, 3vw, 2rem);
   color: #121212;
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate__text {
   width: 100%;
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #121212;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate__text__focus {
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate__info-text {
   width: 100%;
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #121212;
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate__info-subtext {
   width: 100%;
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #121212;
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate__info-focus {
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #282828;
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-area {
   background-color: #f8f8f8;
   padding: 22px;
@@ -430,23 +290,19 @@ section {
   border: 1px solid rgba(237, 237, 237, 0.8823529412);
   max-width: 500px;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-area__title {
   font-size: clamp(1.25rem, 3vw, 2rem);
   color: #121212;
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-area__text {
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #121212;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-area-inputs {
   width: 100%;
   display: flex;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-area-inputs__text {
   width: -webkit-fill-available;
   padding: 10px 10px;
@@ -454,7 +310,6 @@ section {
   border: 1px solid rgba(237, 237, 237, 0.8823529412);
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-area-inputs__btn {
   border-radius: 0px 4px 4px 0px;
   padding: 10px 0px;
@@ -464,12 +319,10 @@ section {
   color: #ffffff;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-imagem {
   width: 100%;
   margin-bottom: 12px;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-imagens {
   padding: 12px;
   border: 1px solid #b0b0b0;
@@ -478,7 +331,6 @@ section {
   margin: auto;
   text-align: center;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-imagens__whats {
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/lupi-whats-icon-filled.png);
   background-position: center;
@@ -487,7 +339,6 @@ section {
   width: 10%;
   height: 22px;
 }
-
 .fidelity-content .fidelity-main .fidelity-indicate-imagens__email {
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/lupi-email-icon-filled.png);
   background-position: center;
@@ -496,71 +347,59 @@ section {
   width: 10%;
   height: 22px;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc {
   width: 85%;
   margin: 32px auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-section__title {
   color: #121212;
   font-size: clamp(1.25rem, 3vw, 2rem);
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-section__text {
   color: #121212;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-section__focus {
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #121212;
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-section__focus2 {
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #282828;
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-cardred {
   min-height: 190px;
   background-color: #282828;
   padding: 32px;
   border-radius: 8px;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-cardred__title {
   font-size: clamp(1rem, 2vw, 1.25rem);
   font-weight: 600;
   color: #ffffff;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-cardred__text {
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #ffffff;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-card {
   min-height: 190px;
   background-color: #f8f8f8;
   padding: 32px;
   border-radius: 8px;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-card__title {
   font-size: clamp(1rem, 2vw, 1.25rem);
   font-weight: 600;
   color: #121212;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-card__text {
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #121212;
 }
-
 .fidelity-content .fidelity-main .fidelity-howfunc-img {
   background-image: url(https://i.ibb.co/Q7Cbsd8y/img-Client2.png);
   background-position: right;
@@ -569,14 +408,12 @@ section {
   width: 100%;
   height: 570px;
 }
-
 .fidelity-content .fidelity-main .fidelity-collect {
   background-color: #5c5c5c;
   padding: 62px 0px;
   margin: 32px auto;
   width: -webkit-fill-available;
 }
-
 .fidelity-content .fidelity-main .fidelity-collect-section {
   padding: 32px;
   background-color: #ffffff;
@@ -585,7 +422,6 @@ section {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.137254902);
   margin: auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__text-focus {
   text-align: center;
   width: 100%;
@@ -594,7 +430,6 @@ section {
   color: #282828;
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__title {
   width: 100%;
   text-align: center;
@@ -603,7 +438,6 @@ section {
   color: #121212;
   font-size: clamp(1.25rem, 3vw, 2rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__box {
   width: -webkit-fill-available;
   padding: 0px 32px;
@@ -611,7 +445,6 @@ section {
   border: 1px solid #b0b0b0;
   text-align: center;
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__box-img {
   margin: 22px;
   background-position: center;
@@ -620,22 +453,18 @@ section {
   width: 60px;
   height: 60px;
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__box-img--1 {
   width: inherit;
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/forma-1.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__box-img--2 {
   width: inherit;
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/forma-2.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__box-img--3 {
   width: inherit;
   background-image: url(https://cdn.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/forma-3.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__box-text {
   text-align: center;
   width: 70%;
@@ -644,7 +473,6 @@ section {
   color: #121212;
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-collect__box-description {
   text-align: center;
   width: 70%;
@@ -653,12 +481,10 @@ section {
   font-size: clamp(1rem, 1.5vw, 1rem);
   margin-bottom: 32px;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards {
   width: 85%;
   margin: 32px auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__title {
   width: 100%;
   text-align: center;
@@ -667,7 +493,6 @@ section {
   color: #121212;
   font-size: clamp(1.25rem, 3vw, 2rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__text {
   width: 100%;
   text-align: center;
@@ -675,11 +500,9 @@ section {
   color: #121212;
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__focus {
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item {
   background-color: #ffffff;
   padding: 22px;
@@ -687,7 +510,6 @@ section {
   border-radius: 12px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.037);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img {
   background-position: center;
   background-repeat: no-repeat;
@@ -695,48 +517,38 @@ section {
   width: 100%;
   height: 220px;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img--1 {
   background-image: url(https://cdns.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/redeem-cashback-1.svg);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img--2 {
   background-image: url(https://cdns.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/redeem-cashback-2.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img--3 {
   background-image: url(https://cdns.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/redeem-cashback-3.svg);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img--4 {
   background-image: url(https://cdns.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/redeem-cashback-4.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img--5 {
   background-image: url(https://cdns.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/redeem-cashback-5.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-img--6 {
   background-image: url(https://cdns.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/redeem-cashback-6.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-focus {
   background-color: #282828;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-focus__title {
   width: 100%;
   font-weight: 600;
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #ffffff;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-focus__text {
   width: 100%;
   font-size: clamp(1rem, 1.5vw, 1rem);
   color: #ffffff;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-title {
   width: 100%;
   margin: auto;
@@ -744,18 +556,15 @@ section {
   color: #121212;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__grid .fidelity-rewards__item-text {
   width: 100%;
   margin: auto;
   color: #121212;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__end {
   width: 100%;
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__img {
   margin: 32px auto auto auto;
   background-position: center;
@@ -765,7 +574,6 @@ section {
   height: 60px;
   background-image: url(https://cdns.fidelizarmais.com/files/production/0f6b8e67-a89b-4a4d-bc3e-cb6e72c7e879/landing-page/assets/imgs/shinny-stars.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-rewards__text {
   margin: auto;
   color: #121212;
@@ -773,12 +581,10 @@ section {
   max-width: 500px;
   text-align: center;
 }
-
 .fidelity-content .fidelity-main .fidelity-useclub {
   width: 85%;
   margin: 32px auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-useclub__image {
   margin-right: 32px;
   background-position: center;
@@ -788,23 +594,19 @@ section {
   height: 700px;
   background-image: url(https://i.ibb.co/G4kcxh77/img-Client3.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-useclub__info-title {
   font-weight: 600;
   color: #121212;
   font-size: clamp(1.25rem, 3vw, 2rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-useclub__info-text {
   margin: auto;
   color: #121212;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-useclub__info .fidelity-useclub__step {
   background-color: #f8f8f8;
 }
-
 .fidelity-content .fidelity-main .fidelity-useclub__info .fidelity-useclub__step-number {
   border-radius: 8px;
   font-size: clamp(1rem, 2vw, 1.25rem);
@@ -814,26 +616,22 @@ section {
   width: 12px;
   text-align: center;
 }
-
 .fidelity-content .fidelity-main .fidelity-useclub__info .fidelity-useclub__step-text {
   color: #121212;
   font-size: clamp(1rem, 1.5vw, 1rem);
   font-weight: 600;
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery {
   width: 95%;
   margin: auto;
   margin-bottom: 60px;
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__title {
   width: 100%;
   font-weight: 600;
   color: #121212;
   font-size: clamp(1.25rem, 3vw, 2rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__carroussel {
   position: relative;
   width: 95%;
@@ -845,7 +643,6 @@ section {
   margin: auto;
   margin-bottom: 32px;
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery-img {
   flex: 0 0 calc(33.333% - 40px);
   transition: all 0.5s ease;
@@ -858,39 +655,30 @@ section {
   width: 320px;
   height: 320px;
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__1 {
   background-image: url(https://i.ibb.co/G4kcxh77/img-Client3.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__2 {
   background-image: url(https://i.ibb.co/Q7Cbsd8y/img-Client2.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__3 {
   background-image: url(https://i.ibb.co/G4kcxh77/img-Client3.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__4 {
   background-image: url(https://i.ibb.co/Q7Cbsd8y/img-Client2.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__5 {
   background-image: url(https://i.ibb.co/G4kcxh77/img-Client3.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__6 {
   background-image: url(https://i.ibb.co/Q7Cbsd8y/img-Client2.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__7 {
   background-image: url(https://i.ibb.co/G4kcxh77/img-Client3.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-gallery__8 {
   background-image: url(https://i.ibb.co/Q7Cbsd8y/img-Client2.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-extract {
   align-items: center;
   border: 1px solid rgba(237, 237, 237, 0.8823529412);
@@ -900,7 +688,6 @@ section {
   margin: auto;
   margin-bottom: 32px;
 }
-
 .fidelity-content .fidelity-main .fidelity-extract__img {
   background-position: center;
   background-repeat: no-repeat;
@@ -909,7 +696,6 @@ section {
   height: 90px;
   background-image: url(https://cdns.fidelizarmais.com/files/production/3b03ece2-f7d3-4410-95d7-ebe989fc12bf/landing-page/magnifier-red.png);
 }
-
 .fidelity-content .fidelity-main .fidelity-extract__title {
   width: 100%;
   text-align: center;
@@ -917,20 +703,17 @@ section {
   color: #121212;
   font-size: clamp(1.25rem, 3vw, 2rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-extract__text {
-  width: 100%;
+  width: 85%;
   text-align: center;
   color: #121212;
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-extract-grup {
   width: 50%;
   display: flex;
   margin-bottom: 32px;
 }
-
 .fidelity-content .fidelity-main .fidelity-extract-grup__text {
   width: -webkit-fill-available;
   padding: 10px 10px;
@@ -938,7 +721,6 @@ section {
   border: 1px solid rgba(237, 237, 237, 0.8823529412);
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-extract-grup__btn {
   transition: ease-in-out 0.2s;
   border-radius: 0px 4px 4px 0px;
@@ -949,7 +731,6 @@ section {
   color: #ffffff;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-emphasis {
   background-color: #f8f8f8;
   padding: 32px;
@@ -957,7 +738,6 @@ section {
   width: -webkit-fill-available;
   margin: auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-emphasis__title-focus {
   text-align: center;
   width: 100%;
@@ -965,7 +745,6 @@ section {
   color: #282828;
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-emphasis__title {
   text-align: center;
   width: 100%;
@@ -974,7 +753,6 @@ section {
   color: #121212;
   font-size: clamp(1.25rem, 3vw, 2rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-emphasis__item {
   width: auto;
   background-color: #ffffff;
@@ -982,7 +760,6 @@ section {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.037);
   border-radius: 8px;
 }
-
 .fidelity-content .fidelity-main .fidelity-emphasis__item-text {
   display: flex;
   align-items: center;
@@ -993,7 +770,6 @@ section {
   font-size: clamp(1rem, 1.5vw, 1rem);
   padding-bottom: 12px;
 }
-
 .fidelity-content .fidelity-main .fidelity-emphasis__item-text-focus {
   text-align: center;
   width: 95%;
@@ -1006,7 +782,6 @@ section {
   color: #121212;
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-footer {
   width: 100%;
   margin: auto;
@@ -1015,12 +790,10 @@ section {
   padding: 32px 0px;
   font-size: clamp(1rem, 1.5vw, 1rem);
 }
-
 .fidelity-content .fidelity-main .fidelity-footer__text {
   text-align: center;
   margin: auto;
 }
-
 .fidelity-content .fidelity-main .fidelity-footer__text strong {
   font-weight: 600;
 }
@@ -1031,60 +804,48 @@ section {
     align-items: start !important;
     flex-direction: column !important;
   }
-
   .fidelity-header__consult {
     width: -webkit-fill-available;
   }
-
   .fidelity-steps {
     margin-right: auto !important;
     gap: 6px !important;
   }
-
   .fidelity-steps__item {
     width: 30% !important;
     padding: 12px !important;
   }
-
   .fidelity-steps__item-focus {
     width: 40% !important;
     border-radius: 8px !important;
   }
-
   .fidelity-steps__arrow {
     width: 100px !important;
     background-size: contain !important;
   }
-
   .fidelity-steps__equals {
     width: 100px !important;
     background-size: contain !important;
   }
-
   .fidelity-indicate {
     display: flex !important;
     align-items: center !important;
     flex-direction: column !important;
   }
-
   .fidelity-indicate-area {
     max-width: 100% !important;
   }
-
   .fidelity-collect {
     width: 100% !important;
   }
-
   .fidelity-collect__grup {
     display: flex !important;
     flex-direction: column !important;
   }
-
   .fidelity-collect__box {
     display: flex !important;
     flex-direction: column !important;
   }
-
   .fidelity-howfunc-section__cards {
     width: -webkit-fill-available !important;
     display: flex !important;
@@ -1094,19 +855,15 @@ section {
     margin-bottom: 32px !important;
     justify-content: flex-start !important;
   }
-
   .fidelity-howfunc-cardred {
     min-height: 70px !important;
   }
-
   .fidelity-howfunc-card {
     min-height: 70px !important;
   }
-
   .fidelity-rewards__grid {
     grid-template-columns: repeat(2, 1fr) !important;
   }
-
   .fidelity-gallery-img {
     height: 220px !important;
   }
