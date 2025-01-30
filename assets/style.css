@@ -735,7 +735,7 @@ button {
 .fidelity-content .fidelity-main .fidelity-extract-grup__btn {
   transition: ease-in-out 0.2s;
   border-radius: 0px 4px 4px 0px;
-  padding: 10px 6px;
+  padding: 10px 22px;
   width: 20%;
   border: none;
   background-color: #282828;
@@ -881,3 +881,4 @@ button {
 }
 
 /*# sourceMappingURL=style.css.map */
+
