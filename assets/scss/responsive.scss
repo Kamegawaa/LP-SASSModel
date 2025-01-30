@@ -50,12 +50,12 @@
         &__grup {
             display: flex !important;
             flex-direction: column !important;
-            overflow: scroll !important;
         }
     }
 
     .fidelity-collect__box {
-        min-height: 50px !important;
+        display: flex !important;
+        flex-direction: column !important;
     }
 
     .fidelity-howfunc-section__cards {
