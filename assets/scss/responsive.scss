@@ -1,0 +1,91 @@
+@media (max-width:1110px) {
+    .fidelity-header {
+        display: flex !important;
+        align-items: start !important;
+        flex-direction: column !important;
+
+        &__consult {
+            width: -webkit-fill-available;
+        }
+    }
+
+    .fidelity-steps {
+        margin-right: auto !important;
+        gap: 6px !important;
+
+        &__item {
+            width: 30% !important;
+            padding: 12px !important;
+        }
+
+        &__item-focus {
+            width: 40% !important;
+            border-radius: 8px !important;
+        }
+
+        &__arrow {
+            width: 100px !important;
+            background-size: contain !important;
+        }
+
+        &__equals {
+            width: 100px !important;
+            background-size: contain !important;
+        }
+    }
+
+    .fidelity-indicate {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+
+        &-area {
+            max-width: 100% !important;
+        }
+    }
+
+    .fidelity-collect {
+        width: 100% !important;
+
+        &__grup {
+            display: flex !important;
+            flex-direction: column !important;
+            overflow: scroll !important;
+        }
+    }
+
+    .fidelity-collect__box {
+        min-height: 50px !important;
+    }
+
+    .fidelity-howfunc-section__cards {
+        width: -webkit-fill-available !important;
+        display: flex !important;
+        align-items: stretch !important;
+        flex-direction: column !important;
+        gap: 22px !important;
+        margin-bottom: 32px !important;
+        justify-content: flex-start !important;
+
+    }
+
+    .fidelity-howfunc-cardred {
+        min-height: 70px !important;
+    }
+
+    .fidelity-howfunc-card {
+        min-height: 70px !important;
+    }
+
+    .fidelity-rewards {
+        &__grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+
+    .fidelity-gallery {
+        &-img {
+            height: 220px !important;
+        }
+    }
+}
