@@ -994,6 +994,7 @@ $img-large: 1000px;
             }
 
             &-grup {
+                max-width: 632px;
                 margin: 0px 32px 32px 32px;
                 width: -webkit-fill-available;
                 display: flex;
