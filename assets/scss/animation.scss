@@ -1,0 +1,12 @@
+#fideity-button-user:hover{
+    background-color: #4b4b4b;
+    transform:scale(1.02);
+    border-radius: 4px;
+}
+
+#fideity-button-user:active{
+    transform:scale(1);
+    border-radius: 4px;
+    filter: brightness(0.5);
+}
+
