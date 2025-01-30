@@ -968,7 +968,8 @@ button {
     min-height: 70px !important;
   }
   .fidelity-howfunc-img {
-    height: 432px !important;
+    height: 400px !important;
+    width: 332px !important;
   }
   .fidelity-rewards__grid {
     grid-template-columns: repeat(2, 1fr) !important;
