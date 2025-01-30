@@ -1,12 +1,102 @@
 // Reset dos componentes
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -15,41 +105,41 @@ input[type="button"],
 input[type="submit"],
 input[type="reset"],
 button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
 }
 
 // Variáveis globais
 $pure-white: #ffffff;
- $second-white: #f8f8f8;
-  $third-white: #ededede1;
-   $grey: #b0b0b0;
-    $black: #121212;
-     $wrong: #282828;
-      $alert: #5c5c5c;
+$second-white: #f8f8f8;
+$third-white: #ededede1;
+$grey: #b0b0b0;
+$black: #121212;
+$wrong: #282828;
+$alert: #5c5c5c;
 
 /* Variáveis para fontes */
 $inter-font: 'Inter', sans-serif;
- $playwrite-font: 'Playwrite IN', sans-serif;
-  $poppins-font: 'Poppins', sans-serif;
-    $roboto-slab-font: 'Roboto Slab', serif;
+$playwrite-font: 'Playwrite IN', sans-serif;
+$poppins-font: 'Poppins', sans-serif;
+$roboto-slab-font: 'Roboto Slab', serif;
 
 /* Variáveis para tamanho das fontes */
-$font-title: clamp(2rem, 4vw, 3rem); 
- $font-sbutitle: clamp(1.25rem, 3vw, 2rem); 
-  $font-text: clamp(1rem, 2vw, 1.25rem); 
-   $font-text2: clamp(1rem, 1.5vw, 1rem);
+$font-title: clamp(2rem, 4vw, 3rem);
+$font-sbutitle: clamp(1.25rem, 3vw, 2rem);
+$font-text: clamp(1rem, 2vw, 1.25rem);
+$font-text2: clamp(1rem, 1.5vw, 1rem);
 
 // Defina os valores para espaços
 $space-small: 12px;
- $space-medium: 22px;
-  $space-large: 32px;
-   $img-icon: 60px;
-    $img-small: 90px;
-     $img-medium: 320px;
-      $img-large: 1000px;
+$space-medium: 22px;
+$space-large: 32px;
+$img-icon: 60px;
+$img-small: 90px;
+$img-medium: 320px;
+$img-large: 1000px;
 
 // Variáveis de Layout
 %flex-center {
@@ -904,9 +994,9 @@ $space-small: 12px;
             }
 
             &-grup {
-                width: 50%;
+                margin: 0px 32px 32px 32px;
+                width: -webkit-fill-available;
                 display: flex;
-                margin-bottom: $space-large;
 
                 &__text {
                     width: -webkit-fill-available;
