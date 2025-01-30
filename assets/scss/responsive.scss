@@ -23,13 +23,8 @@
             border-radius: 8px !important;
         }
 
-        &__arrow {
-            width: 100px !important;
-            background-size: contain !important;
-        }
-
-        &__equals {
-            width: 100px !important;
+        &__arrow, &__equals {
+            width: 60px !important;
             background-size: contain !important;
         }
     }
