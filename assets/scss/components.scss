@@ -123,6 +123,7 @@ $space-small: 12px;
 // Componentes gerais
 .fidelity-content {
     @extend %flex-center;
+    width: -webkit-fill-available;
     font-family: $poppins-font;
     background-color: #f0f0f0;
     margin-bottom: 0px !important;
@@ -174,7 +175,7 @@ $space-small: 12px;
             padding: $space-large;
             border-radius: 8px;
             gap: 3px;
-            width: 500px;
+            width: -webkit-fill-available;
             display: flex;
             flex-direction: column;
 
@@ -188,11 +189,11 @@ $space-small: 12px;
             }
 
             &-inputs {
-                width: 100%;
+                width: -webkit-fill-available;
                 display: flex;
 
                 &--text {
-                    width: -webkit-fill-available;
+                    width: 100%;
                     padding: 10px 10px;
                     border-radius: 4px 0px 0px 4px;
                     border: 1px solid $third-white;
@@ -202,8 +203,8 @@ $space-small: 12px;
                 &--button {
                     transition: ease-in-out 0.2s;
                     border-radius: 0px 4px 4px 0px;
-                    padding: 10px 0px;
-                    width: 40%;
+                    padding: 10px 12px;
+                    width: auto;
                     border: none;
                     background-color: $wrong;
                     color: $pure-white;
@@ -919,7 +920,7 @@ $space-small: 12px;
                     transition: ease-in-out 0.2s;
                     border-radius: 0px 4px 4px 0px;
                     padding: 10px $space-medium;
-                    width: 20%;
+                    width: min-content;
                     border: none;
                     background-color: $wrong;
                     color: $pure-white;
