@@ -23,7 +23,8 @@
             border-radius: 8px !important;
         }
 
-        &__arrow, &__equals {
+        &__arrow,
+        &__equals {
             width: 60px !important;
             background-size: contain !important;
         }
@@ -53,23 +54,35 @@
         flex-direction: column !important;
     }
 
-    .fidelity-howfunc-section__cards {
-        width: -webkit-fill-available !important;
+    .fidelity-howfunc {
         display: flex !important;
-        align-items: stretch !important;
-        flex-direction: column !important;
+        align-items: center !important;
+        flex-direction: column-reverse !important;
         gap: 22px !important;
-        margin-bottom: 32px !important;
         justify-content: flex-start !important;
 
-    }
+        &-section__cards {
+            width: -webkit-fill-available !important;
+            display: flex !important;
+            align-items: stretch !important;
+            flex-direction: column !important;
+            gap: 22px !important;
+            margin-bottom: 32px !important;
+            justify-content: flex-start !important;
 
-    .fidelity-howfunc-cardred {
-        min-height: 70px !important;
-    }
+        }
 
-    .fidelity-howfunc-card {
-        min-height: 70px !important;
+        &-cardred {
+            min-height: 70px !important;
+        }
+
+        &-card {
+            min-height: 70px !important;
+        }
+
+        &-img{
+            height: 432px;
+        }
     }
 
     .fidelity-rewards {
@@ -78,13 +91,13 @@
         }
     }
 
-    .fidelity-useclub{
+    .fidelity-useclub {
         display: flex !important;
-        justify-content:center !important;
+        justify-content: center !important;
         align-items: center !important;
         flex-direction: column !important;
 
-        &__image{
+        &__image {
             margin: 0px !important;
             height: 500px !important;
         }
