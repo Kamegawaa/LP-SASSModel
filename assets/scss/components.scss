@@ -215,19 +215,16 @@ $img-large: 1000px;
     border-radius: 0px;
     padding: 150px 90px;
 
+    border-radius: 0px;
+    padding: 150px 90px;
     --s: 83px;
     --o: 0.5;
-    --c1: rgba(244, 235, 208, var(--o));
-    --c2: rgba(194, 178, 163, var(--o));
-
-    background-image: linear-gradient(var(--c1) 50%, var(--c2) 50%),
-        linear-gradient(45deg, var(--c1) 50%, var(--c2) 50%),
-        linear-gradient(90deg, var(--c1) 50%, var(--c2) 50%),
-        linear-gradient(135deg, var(--c1) 50%, var(--c2) 50%);
+    --c1: rgb(0 0 0 / 50%);
+    --c2: rgb(9 9 9 / 50%);
+    background-image: linear-gradient(var(--c1) 50%, var(--c2) 50%), linear-gradient(1deg, var(--c1) 50%, var(--c2) 50%), linear-gradient(90deg, var(--c1) 50%, var(--c2) 50%), linear-gradient(135deg, var(--c1) 50%, var(--c2) 50%);
     background-size: var(--s) var(--s);
-
     scrollbar-width: thin;
-    scrollbar-color: rgb(204, 204, 204) rgb(241, 241, 241);
+    scrollbar-color: rgb(0 0 0) rgb(0 0 0);
 
     &__group {
         width: 100%;
