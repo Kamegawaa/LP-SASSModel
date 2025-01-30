@@ -918,7 +918,7 @@ $space-small: 12px;
                 &__btn {
                     transition: ease-in-out 0.2s;
                     border-radius: 0px 4px 4px 0px;
-                    padding: 10px 6px;
+                    padding: 10px $space-medium;
                     width: 20%;
                     border: none;
                     background-color: $wrong;
