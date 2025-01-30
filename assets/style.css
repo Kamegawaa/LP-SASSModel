@@ -812,6 +812,7 @@ button {
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
 .fidelity-content .fidelity-main .fidelity-extract-grup {
+  max-width: 632px;
   margin: 0px 32px 32px 32px;
   width: -webkit-fill-available;
   display: flex;
